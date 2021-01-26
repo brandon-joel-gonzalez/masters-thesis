@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake
+CMAKE_SOURCE_DIR = /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake
+CMAKE_BINARY_DIR = /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles /home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named opencv_example
+# Target rules for targets named peopledetect
 
 # Build rule for target.
-opencv_example: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 opencv_example
-.PHONY : opencv_example
+peopledetect: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 peopledetect
+.PHONY : peopledetect
 
 # fast build rule for target.
-opencv_example/fast:
-	$(MAKE) -f CMakeFiles/opencv_example.dir/build.make CMakeFiles/opencv_example.dir/build
-.PHONY : opencv_example/fast
+peopledetect/fast:
+	$(MAKE) -f CMakeFiles/peopledetect.dir/build.make CMakeFiles/peopledetect.dir/build
+.PHONY : peopledetect/fast
 
-example.o: example.cpp.o
+peopledetect.o: peopledetect.cpp.o
 
-.PHONY : example.o
+.PHONY : peopledetect.o
 
 # target to build an object file
-example.cpp.o:
-	$(MAKE) -f CMakeFiles/opencv_example.dir/build.make CMakeFiles/opencv_example.dir/example.cpp.o
-.PHONY : example.cpp.o
+peopledetect.cpp.o:
+	$(MAKE) -f CMakeFiles/peopledetect.dir/build.make CMakeFiles/peopledetect.dir/peopledetect.cpp.o
+.PHONY : peopledetect.cpp.o
 
-example.i: example.cpp.i
+peopledetect.i: peopledetect.cpp.i
 
-.PHONY : example.i
+.PHONY : peopledetect.i
 
 # target to preprocess a source file
-example.cpp.i:
-	$(MAKE) -f CMakeFiles/opencv_example.dir/build.make CMakeFiles/opencv_example.dir/example.cpp.i
-.PHONY : example.cpp.i
+peopledetect.cpp.i:
+	$(MAKE) -f CMakeFiles/peopledetect.dir/build.make CMakeFiles/peopledetect.dir/peopledetect.cpp.i
+.PHONY : peopledetect.cpp.i
 
-example.s: example.cpp.s
+peopledetect.s: peopledetect.cpp.s
 
-.PHONY : example.s
+.PHONY : peopledetect.s
 
 # target to generate assembly for a file
-example.cpp.s:
-	$(MAKE) -f CMakeFiles/opencv_example.dir/build.make CMakeFiles/opencv_example.dir/example.cpp.s
-.PHONY : example.cpp.s
+peopledetect.cpp.s:
+	$(MAKE) -f CMakeFiles/peopledetect.dir/build.make CMakeFiles/peopledetect.dir/peopledetect.cpp.s
+.PHONY : peopledetect.cpp.s
 
 # Help Target
 help:
@@ -157,11 +157,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... opencv_example"
+	@echo "... peopledetect"
 	@echo "... edit_cache"
-	@echo "... example.o"
-	@echo "... example.i"
-	@echo "... example.s"
+	@echo "... peopledetect.o"
+	@echo "... peopledetect.i"
+	@echo "... peopledetect.s"
 .PHONY : help
 
 
