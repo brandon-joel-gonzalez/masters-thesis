@@ -32,9 +32,9 @@ public:
         // groupThreshold (set groupThreshold to 0 to turn off the grouping completely).
         vector<Rect> found;
         if (m == Default)
-            hog.detectMultiScale(img, found, 0, Size(8,8), Size(), 1.05, 2, false);
+            hog.detectMultiScale(img, found, .25, Size(8,8), Size(), 1.05, 2, false);
         else if (m == Daimler)
-            hog_d.detectMultiScale(img, found, 0, Size(8,8), Size(), 1.05, 2, true);
+            hog_d.detectMultiScale(img, found, .1, Size(8,8), Size(), 1.05, 2, true);
         return found;
     }
     void adjustRect(Rect & r) const
@@ -103,8 +103,8 @@ int main(int argc, char** argv)
         // show the window
         {
             ostringstream buf;
-            buf << "Mode: " << detector.modeName() << " ||| "
-                << "FPS: " << fixed << setprecision(1) << (getTickFrequency() / (double)t);
+            buf << "Mode: " << detector.modeName();
+                // << "FPS: " << fixed << setprecision(1) << (getTickFrequency() / (double)t);
             putText(frame, buf.str(), Point(10, 30), FONT_HERSHEY_PLAIN, 2.0, Scalar(0, 0, 255), 2, LINE_AA);
         }
         for (vector<Rect>::iterator i = found.begin(); i != found.end(); ++i)
