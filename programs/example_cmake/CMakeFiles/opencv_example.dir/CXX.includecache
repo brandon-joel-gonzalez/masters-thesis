@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/example.cpp
+/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/example.cpp
 opencv2/core.hpp
-/home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/opencv2/core.hpp
+/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/opencv2/core.hpp
 opencv2/imgproc.hpp
-/home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/opencv2/imgproc.hpp
+/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/opencv2/imgproc.hpp
 opencv2/highgui.hpp
-/home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/opencv2/highgui.hpp
+/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/opencv2/highgui.hpp
 opencv2/videoio.hpp
-/home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/opencv2/videoio.hpp
+/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/opencv2/videoio.hpp
 iostream
 -
 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake
+CMAKE_SOURCE_DIR = /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake
+CMAKE_BINARY_DIR = /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles /home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

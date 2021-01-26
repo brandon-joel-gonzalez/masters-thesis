@@ -120,5 +120,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/opencv_example.dir/DependInfo.cmake"
+  "CMakeFiles/displayimage.dir/DependInfo.cmake"
   )

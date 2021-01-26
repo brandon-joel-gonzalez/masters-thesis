@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/peopledetect.cpp" "/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/peopledetect.dir/peopledetect.cpp.o"
+  "/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/peopledetect.cpp" "/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/peopledetect.dir/peopledetect.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

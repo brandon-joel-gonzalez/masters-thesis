@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/peopledetect.cpp
+/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/peopledetect.cpp
 opencv2/objdetect.hpp
 -
 opencv2/highgui.hpp

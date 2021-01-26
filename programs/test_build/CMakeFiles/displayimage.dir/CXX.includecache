@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/test_build/DisplayImage.cpp
+stdio.h
+-
+opencv2/opencv.hpp
+-
+

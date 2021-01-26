@@ -1,3 +1,0 @@
-/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/rebuild_cache.dir
-/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/peopledetect.dir
-/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/edit_cache.dir

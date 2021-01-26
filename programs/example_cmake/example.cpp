@@ -14,12 +14,14 @@ int main()
     cout << "Built with OpenCV " << CV_VERSION << endl;
     Mat image;
     VideoCapture capture;
-    capture.open(2);
+    capture.open(2); // USB cam
     if(capture.isOpened())
     {
         cout << "Capture is opened" << endl;
         for(;;)
         {
+            waitKey(100); // wait for cam to update
+
             capture >> image;
             if(image.empty())
             {
@@ -30,6 +32,7 @@ int main()
             drawText(image);
             imshow("Sample", image);
             
+            // show photo indefinitely
             if(waitKey(0) >= 0)
             {
                 cout << "Time elapsed" << endl;

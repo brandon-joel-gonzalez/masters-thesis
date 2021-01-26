@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/3.10.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/3.10.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/CMakeTmp
+Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_eed9e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_eed9e.dir/build.make CMakeFiles/cmTC_eed9e.dir/build
-make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_eed9e.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_eed9e.dir/testCCompiler.c.o   -c /home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_eed9e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eed9e.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_eed9e.dir/testCCompiler.c.o  -o cmTC_eed9e 
-make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_04da3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_04da3.dir/build.make CMakeFiles/cmTC_04da3.dir/build
+make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_04da3.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_04da3.dir/testCCompiler.c.o   -c /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_04da3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04da3.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_04da3.dir/testCCompiler.c.o  -o cmTC_04da3 
+make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/CMakeTmp
+Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b9d55/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b9d55.dir/build.make CMakeFiles/cmTC_b9d55.dir/build
-make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b9d55.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_b9d55.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_b9d55
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9d55.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_b9d55.dir/CMakeCCompilerABI.c.o  -o cmTC_b9d55 
+Run Build Command:"/usr/bin/make" "cmTC_70ec8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_70ec8.dir/build.make CMakeFiles/cmTC_70ec8.dir/build
+make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_70ec8.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_70ec8.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_70ec8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70ec8.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_70ec8.dir/CMakeCCompilerABI.c.o  -o cmTC_70ec8 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -59,23 +59,23 @@ Thread model: posix
 gcc version 5.5.0 20171010 (Ubuntu 5.5.0-12ubuntu1) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b9d55' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cceqMxBo.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b9d55 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_b9d55.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_70ec8' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJ2lEBL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_70ec8 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_70ec8.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b9d55/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b9d55.dir/build.make CMakeFiles/cmTC_b9d55.dir/build]
-  ignore line: [make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_b9d55.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_b9d55.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_b9d55]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9d55.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_b9d55.dir/CMakeCCompilerABI.c.o  -o cmTC_b9d55 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_70ec8/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_70ec8.dir/build.make CMakeFiles/cmTC_70ec8.dir/build]
+  ignore line: [make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_70ec8.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_70ec8.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_70ec8]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70ec8.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_70ec8.dir/CMakeCCompilerABI.c.o  -o cmTC_70ec8 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -85,13 +85,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 5.5.0 20171010 (Ubuntu 5.5.0-12ubuntu1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b9d55' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cceqMxBo.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b9d55 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_b9d55.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_70ec8' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJ2lEBL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_70ec8 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_70ec8.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cceqMxBo.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccJ2lEBL.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -111,7 +111,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_b9d55] ==> ignore
+    arg [cmTC_70ec8] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o] ==> ignore
@@ -123,7 +123,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_b9d55.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_70ec8.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -153,17 +153,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/CMakeTmp
+Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e890c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e890c.dir/build.make CMakeFiles/cmTC_e890c.dir/build
-make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e890c.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_e890c.dir/feature_tests.c.o   -c /home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/feature_tests.c
-Linking C executable cmTC_e890c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e890c.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e890c.dir/feature_tests.c.o  -o cmTC_e890c 
-make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_26207/fast"
+/usr/bin/make -f CMakeFiles/cmTC_26207.dir/build.make CMakeFiles/cmTC_26207.dir/build
+make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_26207.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_26207.dir/feature_tests.c.o   -c /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/feature_tests.c
+Linking C executable cmTC_26207
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26207.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_26207.dir/feature_tests.c.o  -o cmTC_26207 
+make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -173,17 +173,17 @@ make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/openc
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/CMakeTmp
+Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0dc2a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0dc2a.dir/build.make CMakeFiles/cmTC_0dc2a.dir/build
-make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0dc2a.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_0dc2a.dir/feature_tests.c.o   -c /home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/feature_tests.c
-Linking C executable cmTC_0dc2a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0dc2a.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0dc2a.dir/feature_tests.c.o  -o cmTC_0dc2a 
-make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_f5d94/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f5d94.dir/build.make CMakeFiles/cmTC_f5d94.dir/build
+make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f5d94.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_f5d94.dir/feature_tests.c.o   -c /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f5d94
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5d94.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f5d94.dir/feature_tests.c.o  -o cmTC_f5d94 
+make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -193,17 +193,17 @@ make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/openc
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/CMakeTmp
+Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0b03b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0b03b.dir/build.make CMakeFiles/cmTC_0b03b.dir/build
-make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0b03b.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_0b03b.dir/feature_tests.c.o   -c /home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/feature_tests.c
-Linking C executable cmTC_0b03b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b03b.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0b03b.dir/feature_tests.c.o  -o cmTC_0b03b 
-make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_7c941/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7c941.dir/build.make CMakeFiles/cmTC_7c941.dir/build
+make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7c941.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_7c941.dir/feature_tests.c.o   -c /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/feature_tests.c
+Linking C executable cmTC_7c941
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c941.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7c941.dir/feature_tests.c.o  -o cmTC_7c941 
+make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -211,30 +211,30 @@ make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/openc
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/CMakeTmp
+Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cfd1b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cfd1b.dir/build.make CMakeFiles/cmTC_cfd1b.dir/build
-make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_cfd1b.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_cfd1b.dir/testCXXCompiler.cxx.o -c /home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_cfd1b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfd1b.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_cfd1b.dir/testCXXCompiler.cxx.o  -o cmTC_cfd1b 
-make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_bf8a2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bf8a2.dir/build.make CMakeFiles/cmTC_bf8a2.dir/build
+make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bf8a2.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_bf8a2.dir/testCXXCompiler.cxx.o -c /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_bf8a2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf8a2.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_bf8a2.dir/testCXXCompiler.cxx.o  -o cmTC_bf8a2 
+make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/CMakeTmp
+Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cead2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cead2.dir/build.make CMakeFiles/cmTC_cead2.dir/build
-make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_cead2.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_cead2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_cead2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cead2.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_cead2.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_cead2 
+Run Build Command:"/usr/bin/make" "cmTC_f3a48/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f3a48.dir/build.make CMakeFiles/cmTC_f3a48.dir/build
+make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f3a48.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_f3a48.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_f3a48
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3a48.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_f3a48.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f3a48 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -244,23 +244,23 @@ Thread model: posix
 gcc version 5.5.0 20171010 (Ubuntu 5.5.0-12ubuntu1) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_cead2' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrq46fD.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_cead2 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_cead2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f3a48' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmhrXQe.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f3a48 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_f3a48.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_cead2/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_cead2.dir/build.make CMakeFiles/cmTC_cead2.dir/build]
-  ignore line: [make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_cead2.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_cead2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_cead2]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cead2.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_cead2.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_cead2 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f3a48/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f3a48.dir/build.make CMakeFiles/cmTC_f3a48.dir/build]
+  ignore line: [make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_f3a48.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_f3a48.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_f3a48]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3a48.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_f3a48.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f3a48 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -270,13 +270,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 5.5.0 20171010 (Ubuntu 5.5.0-12ubuntu1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_cead2' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrq46fD.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_cead2 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_cead2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f3a48' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmhrXQe.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f3a48 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_f3a48.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccrq46fD.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccmhrXQe.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -296,7 +296,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_cead2] ==> ignore
+    arg [cmTC_f3a48] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o] ==> ignore
@@ -308,7 +308,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_cead2.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_f3a48.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -334,17 +334,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/CMakeTmp
+Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b96f7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b96f7.dir/build.make CMakeFiles/cmTC_b96f7.dir/build
-make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b96f7.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_b96f7.dir/feature_tests.cxx.o -c /home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_b96f7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b96f7.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_b96f7.dir/feature_tests.cxx.o  -o cmTC_b96f7 
-make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_22c88/fast"
+/usr/bin/make -f CMakeFiles/cmTC_22c88.dir/build.make CMakeFiles/cmTC_22c88.dir/build
+make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_22c88.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_22c88.dir/feature_tests.cxx.o -c /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_22c88
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22c88.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_22c88.dir/feature_tests.cxx.o  -o cmTC_22c88 
+make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -407,17 +407,17 @@ make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/openc
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/CMakeTmp
+Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7faa9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7faa9.dir/build.make CMakeFiles/cmTC_7faa9.dir/build
-make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_7faa9.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_7faa9.dir/feature_tests.cxx.o -c /home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_7faa9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7faa9.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_7faa9.dir/feature_tests.cxx.o  -o cmTC_7faa9 
-make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_b89f5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b89f5.dir/build.make CMakeFiles/cmTC_b89f5.dir/build
+make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b89f5.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_b89f5.dir/feature_tests.cxx.o -c /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b89f5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b89f5.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_b89f5.dir/feature_tests.cxx.o  -o cmTC_b89f5 
+make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -480,17 +480,17 @@ make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/openc
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/CMakeTmp
+Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_68a91/fast"
-/usr/bin/make -f CMakeFiles/cmTC_68a91.dir/build.make CMakeFiles/cmTC_68a91.dir/build
-make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_68a91.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_68a91.dir/feature_tests.cxx.o -c /home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_68a91
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68a91.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_68a91.dir/feature_tests.cxx.o  -o cmTC_68a91 
-make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_ba233/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ba233.dir/build.make CMakeFiles/cmTC_ba233.dir/build
+make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ba233.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_ba233.dir/feature_tests.cxx.o -c /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ba233
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba233.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_ba233.dir/feature_tests.cxx.o  -o cmTC_ba233 
+make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -553,17 +553,17 @@ make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/openc
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/CMakeTmp
+Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_efbdc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_efbdc.dir/build.make CMakeFiles/cmTC_efbdc.dir/build
-make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_efbdc.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_efbdc.dir/feature_tests.cxx.o -c /home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_efbdc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_efbdc.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_efbdc.dir/feature_tests.cxx.o  -o cmTC_efbdc 
-make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/opencv-master/samples/cpp/example_cmake/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_f170d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f170d.dir/build.make CMakeFiles/cmTC_f170d.dir/build
+make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f170d.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_f170d.dir/feature_tests.cxx.o -c /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f170d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f170d.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_f170d.dir/feature_tests.cxx.o  -o cmTC_f170d 
+make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/PersonDetection/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -635,7 +635,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/3.10.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/3.10.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -648,33 +648,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/CMakeTmp
+Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5d01e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5d01e.dir/build.make CMakeFiles/cmTC_5d01e.dir/build
-make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5d01e.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_5d01e.dir/testCCompiler.c.o   -c /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_5d01e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d01e.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5d01e.dir/testCCompiler.c.o  -o cmTC_5d01e 
-make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_e8c2f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e8c2f.dir/build.make CMakeFiles/cmTC_e8c2f.dir/build
+make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e8c2f.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e8c2f.dir/testCCompiler.c.o   -c /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_e8c2f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8c2f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e8c2f.dir/testCCompiler.c.o  -o cmTC_e8c2f 
+make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/CMakeTmp
+Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_801ff/fast"
-/usr/bin/make -f CMakeFiles/cmTC_801ff.dir/build.make CMakeFiles/cmTC_801ff.dir/build
-make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_801ff.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_801ff.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_801ff
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_801ff.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_801ff.dir/CMakeCCompilerABI.c.o  -o cmTC_801ff 
+Run Build Command:"/usr/bin/make" "cmTC_abfcd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_abfcd.dir/build.make CMakeFiles/cmTC_abfcd.dir/build
+make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_abfcd.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_abfcd.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_abfcd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abfcd.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_abfcd.dir/CMakeCCompilerABI.c.o  -o cmTC_abfcd 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -684,23 +684,23 @@ Thread model: posix
 gcc version 5.5.0 20171010 (Ubuntu 5.5.0-12ubuntu1) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_801ff' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccR9wsA4.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_801ff /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_801ff.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_abfcd' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccC9tIF7.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_abfcd /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_abfcd.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_801ff/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_801ff.dir/build.make CMakeFiles/cmTC_801ff.dir/build]
-  ignore line: [make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_801ff.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_801ff.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_801ff]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_801ff.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_801ff.dir/CMakeCCompilerABI.c.o  -o cmTC_801ff ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_abfcd/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_abfcd.dir/build.make CMakeFiles/cmTC_abfcd.dir/build]
+  ignore line: [make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_abfcd.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_abfcd.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_abfcd]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abfcd.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_abfcd.dir/CMakeCCompilerABI.c.o  -o cmTC_abfcd ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -710,13 +710,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 5.5.0 20171010 (Ubuntu 5.5.0-12ubuntu1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_801ff' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccR9wsA4.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_801ff /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_801ff.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_abfcd' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccC9tIF7.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_abfcd /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_abfcd.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccR9wsA4.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccC9tIF7.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -736,7 +736,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_801ff] ==> ignore
+    arg [cmTC_abfcd] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o] ==> ignore
@@ -748,7 +748,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_801ff.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_abfcd.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -778,17 +778,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/CMakeTmp
+Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3c796/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3c796.dir/build.make CMakeFiles/cmTC_3c796.dir/build
-make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3c796.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_3c796.dir/feature_tests.c.o   -c /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/feature_tests.c
-Linking C executable cmTC_3c796
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c796.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3c796.dir/feature_tests.c.o  -o cmTC_3c796 
-make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_48538/fast"
+/usr/bin/make -f CMakeFiles/cmTC_48538.dir/build.make CMakeFiles/cmTC_48538.dir/build
+make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_48538.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_48538.dir/feature_tests.c.o   -c /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/feature_tests.c
+Linking C executable cmTC_48538
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48538.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_48538.dir/feature_tests.c.o  -o cmTC_48538 
+make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -798,17 +798,17 @@ make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/progr
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/CMakeTmp
+Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_264ac/fast"
-/usr/bin/make -f CMakeFiles/cmTC_264ac.dir/build.make CMakeFiles/cmTC_264ac.dir/build
-make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_264ac.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_264ac.dir/feature_tests.c.o   -c /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/feature_tests.c
-Linking C executable cmTC_264ac
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_264ac.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_264ac.dir/feature_tests.c.o  -o cmTC_264ac 
-make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_0880d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0880d.dir/build.make CMakeFiles/cmTC_0880d.dir/build
+make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0880d.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_0880d.dir/feature_tests.c.o   -c /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/feature_tests.c
+Linking C executable cmTC_0880d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0880d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0880d.dir/feature_tests.c.o  -o cmTC_0880d 
+make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -818,17 +818,17 @@ make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/progr
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/CMakeTmp
+Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cc62b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cc62b.dir/build.make CMakeFiles/cmTC_cc62b.dir/build
-make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cc62b.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_cc62b.dir/feature_tests.c.o   -c /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/feature_tests.c
-Linking C executable cmTC_cc62b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc62b.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_cc62b.dir/feature_tests.c.o  -o cmTC_cc62b 
-make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_019ed/fast"
+/usr/bin/make -f CMakeFiles/cmTC_019ed.dir/build.make CMakeFiles/cmTC_019ed.dir/build
+make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_019ed.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_019ed.dir/feature_tests.c.o   -c /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/feature_tests.c
+Linking C executable cmTC_019ed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_019ed.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_019ed.dir/feature_tests.c.o  -o cmTC_019ed 
+make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -836,30 +836,30 @@ make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/progr
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/CMakeTmp
+Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9b4e7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9b4e7.dir/build.make CMakeFiles/cmTC_9b4e7.dir/build
-make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_9b4e7.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_9b4e7.dir/testCXXCompiler.cxx.o -c /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_9b4e7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b4e7.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_9b4e7.dir/testCXXCompiler.cxx.o  -o cmTC_9b4e7 
-make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_1372e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1372e.dir/build.make CMakeFiles/cmTC_1372e.dir/build
+make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1372e.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_1372e.dir/testCXXCompiler.cxx.o -c /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_1372e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1372e.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_1372e.dir/testCXXCompiler.cxx.o  -o cmTC_1372e 
+make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/CMakeTmp
+Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ec623/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ec623.dir/build.make CMakeFiles/cmTC_ec623.dir/build
-make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ec623.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_ec623.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_ec623
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec623.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_ec623.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ec623 
+Run Build Command:"/usr/bin/make" "cmTC_f3753/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f3753.dir/build.make CMakeFiles/cmTC_f3753.dir/build
+make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f3753.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_f3753.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_f3753
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3753.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_f3753.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f3753 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -869,23 +869,23 @@ Thread model: posix
 gcc version 5.5.0 20171010 (Ubuntu 5.5.0-12ubuntu1) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ec623' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXzDwPm.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ec623 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_ec623.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f3753' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrzKA4x.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f3753 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_f3753.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_ec623/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_ec623.dir/build.make CMakeFiles/cmTC_ec623.dir/build]
-  ignore line: [make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_ec623.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_ec623.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_ec623]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec623.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_ec623.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ec623 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f3753/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f3753.dir/build.make CMakeFiles/cmTC_f3753.dir/build]
+  ignore line: [make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_f3753.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_f3753.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_f3753]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3753.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_f3753.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f3753 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -895,13 +895,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 5.5.0 20171010 (Ubuntu 5.5.0-12ubuntu1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ec623' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXzDwPm.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ec623 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_ec623.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f3753' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrzKA4x.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f3753 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_f3753.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccXzDwPm.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccrzKA4x.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -921,7 +921,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_ec623] ==> ignore
+    arg [cmTC_f3753] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbeginS.o] ==> ignore
@@ -933,7 +933,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_ec623.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_f3753.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -959,17 +959,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/CMakeTmp
+Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c4504/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c4504.dir/build.make CMakeFiles/cmTC_c4504.dir/build
-make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c4504.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_c4504.dir/feature_tests.cxx.o -c /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c4504
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4504.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_c4504.dir/feature_tests.cxx.o  -o cmTC_c4504 
-make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_ade60/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ade60.dir/build.make CMakeFiles/cmTC_ade60.dir/build
+make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ade60.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_ade60.dir/feature_tests.cxx.o -c /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ade60
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ade60.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_ade60.dir/feature_tests.cxx.o  -o cmTC_ade60 
+make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -1032,17 +1032,17 @@ make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/progr
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/CMakeTmp
+Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d4e09/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d4e09.dir/build.make CMakeFiles/cmTC_d4e09.dir/build
-make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d4e09.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_d4e09.dir/feature_tests.cxx.o -c /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_d4e09
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4e09.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_d4e09.dir/feature_tests.cxx.o  -o cmTC_d4e09 
-make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_199fe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_199fe.dir/build.make CMakeFiles/cmTC_199fe.dir/build
+make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_199fe.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_199fe.dir/feature_tests.cxx.o -c /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_199fe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_199fe.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_199fe.dir/feature_tests.cxx.o  -o cmTC_199fe 
+make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -1105,17 +1105,17 @@ make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/progr
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/CMakeTmp
+Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7a5ca/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7a5ca.dir/build.make CMakeFiles/cmTC_7a5ca.dir/build
-make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_7a5ca.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_7a5ca.dir/feature_tests.cxx.o -c /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_7a5ca
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a5ca.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_7a5ca.dir/feature_tests.cxx.o  -o cmTC_7a5ca 
-make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_88d75/fast"
+/usr/bin/make -f CMakeFiles/cmTC_88d75.dir/build.make CMakeFiles/cmTC_88d75.dir/build
+make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_88d75.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_88d75.dir/feature_tests.cxx.o -c /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_88d75
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88d75.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_88d75.dir/feature_tests.cxx.o  -o cmTC_88d75 
+make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -1178,17 +1178,17 @@ make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/progr
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/CMakeTmp
+Change Dir: /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f7f35/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f7f35.dir/build.make CMakeFiles/cmTC_f7f35.dir/build
-make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f7f35.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_f7f35.dir/feature_tests.cxx.o -c /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_f7f35
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7f35.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_f7f35.dir/feature_tests.cxx.o  -o cmTC_f7f35 
-make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/example_cmake/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_1b7a9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1b7a9.dir/build.make CMakeFiles/cmTC_1b7a9.dir/build
+make[1]: Entering directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1b7a9.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_1b7a9.dir/feature_tests.cxx.o -c /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1b7a9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b7a9.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_1b7a9.dir/feature_tests.cxx.o  -o cmTC_1b7a9 
+make[1]: Leaving directory '/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

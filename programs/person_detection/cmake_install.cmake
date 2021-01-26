@@ -1,4 +1,4 @@
-# Install script for directory: /home/brandon/Desktop/Spring_2021/ROBO597/Code/build/TestBuild
+# Install script for directory: /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/brandon/Desktop/Spring_2021/ROBO597/Code/build/TestBuild/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

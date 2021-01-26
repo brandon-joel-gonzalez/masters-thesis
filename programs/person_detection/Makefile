@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/brandon/Desktop/Spring_2021/ROBO597/Code/build/TestBuild
+CMAKE_SOURCE_DIR = /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/brandon/Desktop/Spring_2021/ROBO597/Code/build/TestBuild
+CMAKE_BINARY_DIR = /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/brandon/Desktop/Spring_2021/ROBO597/Code/build/TestBuild/CMakeFiles /home/brandon/Desktop/Spring_2021/ROBO597/Code/build/TestBuild/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/brandon/Desktop/Spring_2021/ROBO597/Code/build/TestBuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/brandon/Desktop/Spring_2021/ROBO597/Code/programs/person_detection/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named DisplayImage
+# Target rules for targets named peopledetect
 
 # Build rule for target.
-DisplayImage: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 DisplayImage
-.PHONY : DisplayImage
+peopledetect: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 peopledetect
+.PHONY : peopledetect
 
 # fast build rule for target.
-DisplayImage/fast:
-	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/build
-.PHONY : DisplayImage/fast
+peopledetect/fast:
+	$(MAKE) -f CMakeFiles/peopledetect.dir/build.make CMakeFiles/peopledetect.dir/build
+.PHONY : peopledetect/fast
 
-DisplayImage.o: DisplayImage.cpp.o
+peopledetect.o: peopledetect.cpp.o
 
-.PHONY : DisplayImage.o
+.PHONY : peopledetect.o
 
 # target to build an object file
-DisplayImage.cpp.o:
-	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/DisplayImage.cpp.o
-.PHONY : DisplayImage.cpp.o
+peopledetect.cpp.o:
+	$(MAKE) -f CMakeFiles/peopledetect.dir/build.make CMakeFiles/peopledetect.dir/peopledetect.cpp.o
+.PHONY : peopledetect.cpp.o
 
-DisplayImage.i: DisplayImage.cpp.i
+peopledetect.i: peopledetect.cpp.i
 
-.PHONY : DisplayImage.i
+.PHONY : peopledetect.i
 
 # target to preprocess a source file
-DisplayImage.cpp.i:
-	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/DisplayImage.cpp.i
-.PHONY : DisplayImage.cpp.i
+peopledetect.cpp.i:
+	$(MAKE) -f CMakeFiles/peopledetect.dir/build.make CMakeFiles/peopledetect.dir/peopledetect.cpp.i
+.PHONY : peopledetect.cpp.i
 
-DisplayImage.s: DisplayImage.cpp.s
+peopledetect.s: peopledetect.cpp.s
 
-.PHONY : DisplayImage.s
+.PHONY : peopledetect.s
 
 # target to generate assembly for a file
-DisplayImage.cpp.s:
-	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/DisplayImage.cpp.s
-.PHONY : DisplayImage.cpp.s
+peopledetect.cpp.s:
+	$(MAKE) -f CMakeFiles/peopledetect.dir/build.make CMakeFiles/peopledetect.dir/peopledetect.cpp.s
+.PHONY : peopledetect.cpp.s
 
 # Help Target
 help:
@@ -157,11 +157,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... DisplayImage"
+	@echo "... peopledetect"
 	@echo "... edit_cache"
-	@echo "... DisplayImage.o"
-	@echo "... DisplayImage.i"
-	@echo "... DisplayImage.s"
+	@echo "... peopledetect.o"
+	@echo "... peopledetect.i"
+	@echo "... peopledetect.s"
 .PHONY : help
 
 
