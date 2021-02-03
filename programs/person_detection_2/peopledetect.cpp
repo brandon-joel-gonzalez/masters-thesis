@@ -7,18 +7,15 @@ using namespace cv::ml;
 
 #define USB_CAMERA 0
 
-int main( int argc, const char** argv )
+int main(int argc, const char** argv)
 {
-    /// Create a videoreader interface
+    /// set up video capture
     VideoCapture cap(USB_CAMERA);
     Mat current_frame;
 
-    /// Set up the pedestrian detector --> let us take the default one
+    /// set up default pedestrian detector
     HOGDescriptor hog;
     hog.setSVMDetector(HOGDescriptor::getDefaultPeopleDetector());
-
-    /// Set up tracking vector (not really needed)
-    // vector<Point> track;
 
     while (1)
     {
@@ -35,18 +32,16 @@ int main( int argc, const char** argv )
         /// run the detector with default parameters. to get a higher hit-rate
         /// (and more false alarms, respectively), decrease the hitThreshold and
         /// groupThreshold (set groupThreshold to 0 to turn off the grouping completely).
-
-        ///image, vector of rectangles, hit threshold, win stride, padding, scale, group th
+        /// image, vector of rectangles, hit threshold, win stride, padding, scale, group threshold
         Mat img = current_frame.clone();
-        resize(img,img,Size(img.cols*2, img.rows*2));
+        resize(img, img, Size(img.cols*2, img.rows*2));
 
+        // detect objects in image
         vector<Rect> found;
         vector<double> weights;
-
-        // detects objects in image
         hog.detectMultiScale(img, found, weights);
 
-        /// draw detections and store location
+        /// draw boxes, with confidence level for each person found
         for(size_t i = 0; i < found.size(); i++)
         {
             Rect r = found[i];
@@ -57,15 +52,13 @@ int main( int argc, const char** argv )
             // track.push_back(Point(found[i].x+found[i].width/2,found[i].y+found[i].height/2));
         }
 
-        // /// plot the track so far
-        // for(size_t i = 1; i < track.size(); i++){
-        //     line(img, track[i-1], track[i], Scalar(255,255,0), 2);
-        // }
-
+        // label how many people found
+        ostringstream buf;
+        buf << "Found: " << found.size() << " people";
         if (found.size() == 0)
             putText(img, "No people detected", Point(10, 30), FONT_HERSHEY_PLAIN, 2.0, Scalar(0, 0, 255), 2, LINE_AA);
-        // else
-        //     putText(img, "Found" << found.size() << " people", Point(10, 30), FONT_HERSHEY_PLAIN, 2.0, Scalar(0, 0, 255), 2, LINE_AA);
+        else
+            putText(img, buf.str(), Point(10, 30), FONT_HERSHEY_PLAIN, 2.0, Scalar(0, 0, 255), 2, LINE_AA);
 
         /// show
         imshow("detected person", img);

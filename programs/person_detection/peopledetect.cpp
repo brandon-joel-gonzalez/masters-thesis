@@ -13,30 +13,35 @@
 using namespace cv;
 using namespace std;
 
+#define USB_CAMERA 0
+
 class Detector
 {
     enum Mode { Default, Daimler } m;
     HOGDescriptor hog, hog_d;
-public:
+
+public:    
     Detector() : m(Default), hog(), hog_d(Size(48, 96), Size(16, 16), Size(8, 8), Size(8, 8), 9)
     {
         hog.setSVMDetector(HOGDescriptor::getDefaultPeopleDetector());
         hog_d.setSVMDetector(HOGDescriptor::getDaimlerPeopleDetector());
     }
+    
     void toggleMode() { m = (m == Default ? Daimler : Default); }
+    
     string modeName() const { return (m == Default ? "Default" : "Daimler"); }
-    vector<Rect> detect(InputArray img)
+    
+    void detect(InputArray img, vector<Rect>& found, vector<double>& weights)
     {
         // Run the detector with default parameters. to get a higher hit-rate
         // (and more false alarms, respectively), decrease the hitThreshold and
         // groupThreshold (set groupThreshold to 0 to turn off the grouping completely).
-        vector<Rect> found;
         if (m == Default)
-            hog.detectMultiScale(img, found, .25, Size(8,8), Size(), 1.05, 2, false);
+            hog.detectMultiScale(img, found, weights, .25, Size(8,8), Size(), 1.05, 2, false);
         else if (m == Daimler)
-            hog_d.detectMultiScale(img, found, .1, Size(8,8), Size(), 1.05, 2, true);
-        return found;
+            hog_d.detectMultiScale(img, found, weights, .1, Size(8,8), Size(), 1.05, 2, true);
     }
+
     void adjustRect(Rect & r) const
     {
         // The HOG detector returns slightly larger rectangles than the real objects,
@@ -48,46 +53,23 @@ public:
     }
 };
 
-static const string keys = "{ help h   |   | print help message }"
-                           "{ camera c | 0 | capture video from camera (device index starting from 0) }"
-                           "{ video v  |   | use video as input }";
-
 int main(int argc, char** argv)
 {
-    CommandLineParser parser(argc, argv, keys);
-    parser.about("This sample demonstrates the use of the HoG descriptor.");
-    if (parser.has("help"))
-    {
-        parser.printMessage();
-        return 0;
-    }
-    int camera = parser.get<int>("camera");
-    string file = parser.get<string>("video");
-    if (!parser.check())
-    {
-        parser.printErrors();
-        return 1;
-    }
+    // open camera
+    VideoCapture cap(USB_CAMERA);
 
-    VideoCapture cap;
-    if (file.empty())
-        cap.open(2); // changed to "2" from "camera" for USB cam
-    else
-    {
-        // can't find "samples" for some reason
-        // file = samples::findFileOrKeep(file);
-        // cap.open(file);
-    }
     if (!cap.isOpened())
     {
-        cout << "Can not open video stream: '" << (file.empty() ? "<camera>" : file) << "'" << endl;
+        cout << "Can't open video" << endl;
         return 2;
     }
 
     cout << "Press 'q' or <ESC> to quit." << endl;
     cout << "Press <space> to toggle between Default and Daimler detector" << endl;
+    
     Detector detector;
     Mat frame;
+
     for (;;)
     {
         cap >> frame;
@@ -96,8 +78,11 @@ int main(int argc, char** argv)
             cout << "Finished reading: empty frame" << endl;
             break;
         }
+
+        vector<Rect> found;
+        vector<double> weights;
         int64 t = getTickCount();
-        vector<Rect> found = detector.detect(frame);
+        detector.detect(frame, found, weights);
         t = getTickCount() - t;
 
         // show the window
@@ -107,12 +92,22 @@ int main(int argc, char** argv)
                 // << "FPS: " << fixed << setprecision(1) << (getTickFrequency() / (double)t);
             putText(frame, buf.str(), Point(10, 30), FONT_HERSHEY_PLAIN, 2.0, Scalar(0, 0, 255), 2, LINE_AA);
         }
+
+
         for (vector<Rect>::iterator i = found.begin(); i != found.end(); ++i)
         {
+            // draw box
             Rect &r = *i;
             detector.adjustRect(r);
             rectangle(frame, r.tl(), r.br(), cv::Scalar(0, 255, 0), 2);
+
+            // label confidence
+            // ostringstream buf;
+            // buf << weights[i - found.begin()];
+            // putText(frame, buf.str(), Point(r.x, r.y+50), FONT_HERSHEY_SIMPLEX, 1, Scalar(0,0,255));
         }
+
+        // Show image
         imshow("People detector", frame);
 
         // interact with user
